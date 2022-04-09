@@ -2713,11 +2713,10 @@ function rand_mode() {
 	}
 
 	//冻结app
-	if (whether_froze_app==1) {
+	if (whether_froze==1) {
     	result = shell("pm disable cn.xuexi.android", true);
     	if (result.code != 0) {
         	log("冻结失败");
-			hamibot.exit();
         	exit(0);
     	}
 	}
