@@ -2374,7 +2374,6 @@ function startDownload() {
 			console.warn('四人/双人/挑战题库加载失败');
 			question_list = null;
 			tikus = null;
-			hamibot.exit();
 			exit();
 		}
 }
