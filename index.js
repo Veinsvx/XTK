@@ -2373,7 +2373,6 @@ function startDownload() {
 			console.error(e);
 			console.warn('四人/双人/挑战题库加载失败');
 			question_list = null;
-			is.close();
 			tikus = null;
 			hamibot.exit();
 			exit();
